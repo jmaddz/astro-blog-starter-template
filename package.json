@@ -15,16 +15,16 @@
     "publish": true
   },
   "dependencies": {
-    "@astrojs/cloudflare": "12.6.0",
+    "@astrojs/cloudflare": "12.6.13",
     "@astrojs/mdx": "4.3.0",
-    "@astrojs/rss": "4.0.11",
-    "@astrojs/sitemap": "3.4.1",
-    "astro": "5.10.1",
+    "@astrojs/rss": "4.0.19",
+    "@astrojs/sitemap": "3.7.5",
+    "astro": "5.18.2",
     "typescript": "5.8.3"
   },
   "devDependencies": {
-    "wrangler": "4.21.x"
-  },
+    "wrangler": "4.164.0"
+  }
   "scripts": {
     "astro": "astro",
     "build": "astro build",
