@@ -1,0 +1,77 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { BOOKING_URL } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead
+			title="Services | My Myo"
+			description="Clinical Myotherapy, dry needling, manual lymphatic drainage, remedial massage and exercise rehabilitation with James Maddock in Carlton North, Melbourne."
+		/>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Services</h1>
+			<p class="lede">
+				Every appointment begins with assessment — history, orthopaedic and neurological
+				testing where indicated — so treatment addresses what's driving your
+				presentation, not just where it hurts.
+			</p>
+
+			<h2>Clinical Myotherapy</h2>
+			<p>
+				Myotherapy is the assessment, treatment, and management of musculoskeletal pain and
+				dysfunction. A session can draw on:
+			</p>
+			<ul>
+				<li>Orthopaedic and neurological assessment, with standardised outcome measures</li>
+				<li>Joint mobilisation and Muscle Energy Techniques</li>
+				<li>Myofascial release and trigger point therapy</li>
+				<li>Dry needling and electrical dry needling (within my Myotherapy scope)</li>
+				<li>Myofascial cupping and instrument-assisted soft tissue work</li>
+				<li>Neurodynamic mobilisation</li>
+				<li>Exercise prescription and rehabilitation, delivered in a fully equipped clinic space</li>
+				<li>Taping — kinesiology and rigid strapping</li>
+				<li>Pain neuroscience education, so you understand what your pain means</li>
+			</ul>
+
+			<h2>Manual Lymphatic Drainage (MLD)</h2>
+			<p>
+				I've provided MLD continuously since 2007, across chronic illness, surgical
+				recovery, gastrointestinal conditions, and oncological support including
+				post-treatment lymphoedema management. Initial MLD appointments are 90 minutes,
+				including 20–30 minutes of history-taking and education about your lymphatic
+				system before any hands-on work.
+			</p>
+			<p>
+				Note: I don't fit medical compression garments — if you need a garment
+				prescription I'll refer you to an appropriately credentialled practitioner.
+			</p>
+
+			<h2>Remedial Massage</h2>
+			<p>
+				Nearly two decades of full-scope remedial massage remains the foundation of
+				everything above. My long-standing remedial practice lives at
+				<a href="https://massage.melbourne" target="_blank">massage.melbourne</a>.
+			</p>
+
+			<h2>Referrals, not guesswork</h2>
+			<p>
+				If something falls outside my scope, I'll say so and refer you onward — GP,
+				physiotherapy, exercise physiology, podiatry, or a credentialled lymphoedema
+				therapist as appropriate. I keep a curated referral network so you land with
+				the right person.
+			</p>
+
+			<p>
+				<a class="cta-button" href={BOOKING_URL} target="_blank">Book an appointment</a>
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>

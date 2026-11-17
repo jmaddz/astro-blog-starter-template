@@ -2,7 +2,7 @@
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import { SITE_TITLE, SITE_DESCRIPTION, BOOKING_URL } from '../consts';
 ---
 
 <!doctype html>
@@ -13,36 +13,49 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	<body>
 		<Header />
 		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to build
-				a personal website, blog, or portfolio with Astro.
+			<h1>Clinical Myotherapy in Melbourne's inner north</h1>
+			<p class="lede">
+				Hi, I'm James Maddock — Clinical Myotherapist and Remedial Massage Therapist,
+				practising at The Urban Alchemist in Carlton North. I've spent nearly two decades
+				working with bodies, and in 2026 completed a Bachelor of Health Science
+				(Clinical Myotherapy) to deepen how I assess, treat, and help you recover.
 			</p>
+			<h2>How I work</h2>
 			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
+				My approach starts with the nervous system. Everything I do — hands-on treatment,
+				movement, education, even the way we talk about what's going on — is ultimately
+				received, integrated, and processed by your nervous system. My job isn't to "fix"
+				you. It's to create the right conditions for your own capacity to heal to work
+				as well as it possibly can.
 			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
+			<p>That means three things in practice:</p>
 			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
+				<li>
+					<strong>Assessment before treatment.</strong> Orthopaedic and neurological
+					testing to work out what's actually driving your pain, not just where it hurts.
+				</li>
+				<li>
+					<strong>Pain is data.</strong> Pain doesn't always equal damage. Understanding
+					what your pain means — and what it doesn't — is often the turning point in
+					recovery.
+				</li>
+				<li>
+					<strong>Meeting you where you are.</strong> Treatment paced to your readiness,
+					not a protocol. Advancing, pausing, or stepping back are all valid clinical choices.
+				</li>
 			</ul>
+			<h2>What I can help with</h2>
 			<p>
-				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
-					>read the docs
-				</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
+				Persistent and recurring musculoskeletal pain, headaches, postural and overuse
+				conditions, surgical recovery and lymphatic support, joint stiffness, sporting
+				and workplace injuries, and building strength and confidence in movement again.
 			</p>
 			<p>
-				Looking for a blog template with a bit more personality? Check out <a
-					href="https://github.com/Charca/astro-blog-template"
-					>astro-blog-template
-				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
+				<a href="/services">Read more about my services</a>, or
+				<a href="/about">get to know me and my approach</a>.
+			</p>
+			<p>
+				<a class="cta-button" href={BOOKING_URL} target="_blank">Book an appointment</a>
 			</p>
 		</main>
 		<Footer />
