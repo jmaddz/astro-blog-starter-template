@@ -1,0 +1,116 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { BOOKING_URL } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead
+			title="Who I work with | My Myo"
+			description="James Maddock's clinical experience with hypermobility and hEDS, perimenopause and menopause, neurodivergent clients, oncology-adjacent support, and trans-affirming myotherapy in Carlton North, Melbourne."
+		/>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Who I work with</h1>
+			<p class="lede">
+				After nearly two decades in practice, certain people keep finding their way
+				to my table. These are the populations I've spent the most time with, and
+				where I can honestly say the extra experience counts.
+			</p>
+
+			<h2 id="hypermobility">Hypermobility and hEDS</h2>
+			<p>
+				Hypermobile joints move further than typical range. Sometimes that's harmless
+				(and, in the right sport, an advantage). Sometimes it comes with pain,
+				instability, and a nervous system that has spent years bracing against a body
+				it doesn't quite trust. If your joints have always been "double-jointed", and
+				especially if you have (or suspect) hypermobile Ehlers-Danlos syndrome, the
+				important thing to know is this: your pain is often coming from muscles
+				working overtime to hold you together, not from the bendy joints themselves.
+			</p>
+			<p>
+				That changes how treatment works. Stretching hypermobile tissue further is
+				rarely the answer; building confident, well-coordinated strength within your
+				safe range usually is. I assess before treating, work within your range,
+				and pace everything to your nervous system. (If a flare-up follows a session,
+				that's information too — we adjust, not push through.)
+			</p>
+
+			<h2 id="perimenopause-menopause">Perimenopause and menopause</h2>
+			<p>
+				Roughly half my caseload is women over 40, and what they tell me most often
+				isn't about their backs. It's that nobody connected their changing bodies to
+				their pain. Falling oestrogen affects collagen, muscle recovery, joint
+				support, and how sensitive your nervous system is — so pain that "came out of
+				nowhere" at 47 very often didn't.
+			</p>
+			<p>
+				I can't treat menopause, and I won't pretend to. What I can do is take your
+				presentation seriously, explain what's mechanically going on, keep you moving
+				confidently through the transition, and work with your GP where hormonal or
+				medical input is needed.
+			</p>
+
+			<h2 id="neurodivergent">Neurodivergent clients</h2>
+			<p>
+				My treatments are sensory-heavy experiences: touch, pressure, music, room,
+				questions. So I make all of it adjustable. Pressure, pace, lighting, how
+				much we talk (or don't), whether you want a running commentary on what I'm
+				doing and why — it's your session, and you get to decide. That's true for
+				everyone, but I know it can be the difference between an unbearable hour and
+				a genuinely regulating one for autistic and ADHD clients.
+			</p>
+			<p>
+				Practically: wear whatever is comfortable, skip the small talk if you'd
+				rather, tell me at any point if something needs to change, and bring any
+				sensory preferences along. I'd rather adjust the room ten times than have you
+				endure it once.
+			</p>
+
+			<h2 id="oncology">Oncology-adjacent support</h2>
+			<p>
+				I don't treat cancer; I support the people living with and beyond it. In
+				practice that's mostly gentle, well-cleared work: manual lymphatic drainage
+				for post-treatment lymphoedema and surgical recovery (I've practised MLD
+				continuously since 2007), scar and tissue work where appropriate, and pain
+				and fatigue management at a pace your body sets.
+			</p>
+			<p>
+				If you're in active treatment, I work with your oncology or surgical team's
+				clearance, not around them. And if what you need is a credentialled
+				lymphoedema therapist or a compression garment fitter, I'll point you to
+				exactly the right person and be glad I did.
+			</p>
+
+			<h2 id="trans">Trans and gender-diverse clients</h2>
+			<p>
+				You shouldn't have to educate your therapist. My practice is gender-affirming
+				as a baseline: your name and pronouns, no interrogation about your body, and
+				treatment that works with the body you have now — including post-surgical
+				tissue and scar work where that's what you're coming for.
+			</p>
+			<p>
+				As with everyone: you set the comfort level on clothing and draping, we
+				talk about what's being treated and why before anything happens, and nothing
+				proceeds without your consent. The treatment table is one place you should
+				get to just be a person with a sore shoulder.
+			</p>
+
+			<p>
+				<a class="cta-button" href={BOOKING_URL} target="_blank">Book an appointment</a>
+			</p>
+			<p>
+				See <a href="/services">the full toolkit</a> or read
+				<a href="/what-is-myotherapy">what Clinical Myotherapy actually is</a>. Not sure
+				you fit a box above? <a href="/contact">Send me a note</a> — if I'm not the right
+				practitioner for you, I'll tell you and refer you on.
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
