@@ -1,0 +1,102 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { BOOKING_URL } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead
+			title="What is Clinical Myotherapy? | My Myo"
+			description="Clinical Myotherapy explained in plain language: what it is, how it differs from physiotherapy, osteopathy and remedial massage, and what a session with James Maddock in Carlton North involves."
+		/>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>What is Clinical Myotherapy?</h1>
+			<p class="lede">
+				In plain language: Clinical Myotherapy is the assessment, treatment, and
+				management of musculoskeletal pain, by a practitioner trained to work out
+				what is actually driving it.
+			</p>
+
+			<h2>Where the name comes from</h2>
+			<p>
+				"Myo" is muscle, so myotherapy is literally "muscle therapy", but the
+				"clinical" part matters more. A Clinical Myotherapist holds a Bachelor of
+				Health Science (Clinical Myotherapy): a four-year-equivalent degree covering
+				anatomy, physiology, orthopaedic and neurological assessment, pain science,
+				exercise rehabilitation, and hands-on techniques from joint mobilisation to
+				dry needling. Mine was undertaken part-time over six years at Torrens
+				University, alongside nearly two decades of clinical practice.
+			</p>
+
+			<h2>How it differs from the professions next door</h2>
+			<p>
+				<strong>Remedial massage</strong> is where I started, and it remains the
+				foundation of my hands-on work. Think of remedial massage as excellent
+				soft-tissue treatment. Clinical Myotherapy keeps those hands-on skills and
+				adds a diagnostic layer: structured orthopaedic and neurological testing,
+				standardised outcome measures, and a wider treatment toolkit including
+				joint mobilisation, dry needling, and exercise prescription.
+			</p>
+			<p>
+				<strong>Physiotherapy</strong> shares the assessment-first ethos; myotherapy
+				tends to spend more of the session on manual treatment, with a strong
+				emphasis on understanding your pain, not just measuring it.
+				<strong>Osteopathy</strong> works from its own philosophical framework of
+				whole-body mechanics; my approach is grounded instead in pain neuroscience:
+				understanding how the nervous system produces and moderates the pain you
+				experience. The honest answer is that all four professions overlap heavily,
+				and a good practitioner of any of them will refer you onward when someone
+				else can serve you better.
+			</p>
+
+			<h2>What a session actually involves</h2>
+			<ul>
+				<li>
+					<strong>Assessment first.</strong> History-taking, movement screening,
+					and orthopaedic or neurological testing where indicated, so treatment
+					targets the driver of your presentation rather than only the sore spot.
+				</li>
+				<li>
+					<strong>Treatment matched to what we find.</strong> That might be soft
+					tissue work, joint mobilisation, myofascial release or cupping, dry
+					needling, or neurodynamic mobilisation. Techniques are choices, not
+					rituals.
+				</li>
+				<li>
+					<strong>Education as treatment.</strong> Pain is data. Understanding
+					what your pain means, and what it does not, is often the turning point in
+					recovery. You leave knowing what happened and what to do next.
+				</li>
+				<li>
+					<strong>A plan you own.</strong> Self-management and exercise where
+					appropriate, paced to your readiness, with your autonomy an explicit
+					goal rather than a courtesy.
+				</li>
+			</ul>
+
+			<h2>Who it helps</h2>
+			<p>
+				Persistent and recurring musculoskeletal pain, headaches, postural and
+				overuse conditions, joint stiffness, sporting and workplace injuries,
+				surgical recovery, and rebuilding strength and confidence in movement. I
+				also have particular experience with hypermobility, perimenopause and
+				menopause, neurodivergent clients, and oncology-adjacent support.
+			</p>
+
+			<p>
+				<a class="cta-button" href={BOOKING_URL} target="_blank">Book an appointment</a>
+			</p>
+			<p>
+				Curious about the full toolkit? See <a href="/services">services</a>, or read
+				<a href="/about">how and why I practise</a>.
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
