@@ -10,7 +10,7 @@
   --accent: #4a7c59;
   --accent-dark: #3a5f47;
   --black: 51, 48, 42;
-  --gray: 122, 114, 101;
+  --gray: 106, 98, 87;
   --gray-light: 233, 225, 210;
   --gray-dark: 68, 62, 53;
   --bg: #faf6ef;
@@ -26,9 +26,9 @@
   --accent: #a8c9a0;
   --accent-dark: #8fb996;
   --black: 236, 228, 213;
-  --gray: 168, 158, 143;
+  --gray: 190, 182, 169;
   --gray-light: 71, 64, 56;
-  --gray-dark: 226, 218, 204;
+  --gray-dark: 232, 226, 214;
   --bg: #2b2622;
   --surface: #363029;
   --gray-gradient: rgba(var(--gray-light), 50%), var(--bg);
