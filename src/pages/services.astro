@@ -23,7 +23,22 @@ import { BOOKING_URL } from '../consts';
 				presentation, not just where it hurts.
 			</p>
 
-			<h2>Clinical Myotherapy</h2>
+			<div class="card-row">
+				<a class="card" href="#clinical-myotherapy">
+					<strong>Clinical Myotherapy</strong>
+					<span>Assessment-led treatment of musculoskeletal pain</span>
+				</a>
+				<a class="card" href="#mld">
+					<strong>Manual Lymphatic Drainage</strong>
+					<span>Vodder-based, gentle, practising since 2007</span>
+				</a>
+				<a class="card" href="#remedial-massage">
+					<strong>Remedial Massage</strong>
+					<span>The hands-on foundation of it all</span>
+				</a>
+			</div>
+
+			<h2 id="clinical-myotherapy">Clinical Myotherapy</h2>
 			<p>
 				Myotherapy is the assessment, treatment, and management of musculoskeletal pain and
 				dysfunction. A session can draw on:
@@ -45,7 +60,7 @@ import { BOOKING_URL } from '../consts';
 				and how it differs from the professions next door.
 			</p>
 
-			<h2>Manual Lymphatic Drainage (MLD)</h2>
+			<h2 id="mld">Manual Lymphatic Drainage (MLD)</h2>
 			<p>
 				I've provided MLD continuously since 2007, across chronic illness, surgical
 				recovery, gastrointestinal conditions, and oncological support including
@@ -58,7 +73,7 @@ import { BOOKING_URL } from '../consts';
 				prescription I'll refer you to an appropriately credentialled practitioner.
 			</p>
 
-			<h2>Remedial Massage</h2>
+			<h2 id="remedial-massage">Remedial Massage</h2>
 			<p>
 				Nearly two decades of full-scope remedial massage remains the foundation of
 				everything above. My long-standing remedial practice lives at
@@ -82,8 +97,9 @@ import { BOOKING_URL } from '../consts';
 				the right person.
 			</p>
 
-			<p>
-				<a class="cta-button" href={BOOKING_URL} target="_blank">Book an appointment</a>
+			<p class="cta-wrap">
+				<a class="cta-button" href={BOOKING_URL} target="_blank">Book Now</a>
+				<span class="cta-caption">Secure online booking with Cliniko.</span>
 			</p>
 		</main>
 		<Footer />

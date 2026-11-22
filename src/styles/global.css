@@ -198,7 +198,19 @@ hr {
   color: #1f2418;
 }
 
-/* Population cards (Who I work with) */
+/* CTA wrapper (centered button + caption) */
+.cta-wrap {
+  text-align: center;
+  margin: 2em 0;
+}
+.cta-caption {
+  display: block;
+  margin-top: 0.5em;
+  font-size: 0.85em;
+  color: rgb(var(--gray));
+}
+
+/* Population cards (Who I work with; service index on Services) */
 .card-row {
   display: flex;
   flex-wrap: wrap;
