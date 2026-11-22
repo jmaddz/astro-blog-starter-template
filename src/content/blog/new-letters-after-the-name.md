@@ -2,6 +2,7 @@
 title: "New letters after the name: becoming a Clinical Myotherapist"
 description: "How nineteen years of clinical practice, a stint teaching anatomy, and a six-year part-time degree add up to Clinical Myotherapy in Carlton North."
 pubDate: "2026-11-18"
+heroImage: "/blog/new-letters-after-the-name.svg"
 ---
 
 This December, eighteen years after my first professional massage course in

@@ -2,6 +2,7 @@
 title: "Pain is data, not damage"
 description: "What pain neuroscience education is, and why understanding your pain is often the turning point in recovery."
 pubDate: "2026-11-26"
+heroImage: "/blog/pain-is-data-not-damage.svg"
 ---
 
 One of the most useful things I do in a session doesn't involve my hands at
@@ -37,8 +38,8 @@ moment a persistent problem starts to unwind.
 
 ## Education is treatment
 
-And I mean that literally, not as a nice idea. Pain neuroscience education, the
-work of Moseley, Butler, and Farmer, measurably reduces pain and disability
+And I mean that literally, not as a nice idea. Pain neuroscience education,
+the work of Moseley, Butler, and Farmer, measurably reduces pain and disability
 when delivered well. I suspect that's partly because a nervous system that
 understands itself is less frightened, and a less frightened nervous system
 spends less energy sounding the alarm. When you leave my room, I want you to

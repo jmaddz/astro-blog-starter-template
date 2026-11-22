@@ -2,6 +2,7 @@
 title: "Manual lymphatic drainage: what it actually does"
 description: "Vodder-based MLD explained: who it helps, why the first appointment is 90 minutes, and what it can't do."
 pubDate: "2026-12-04"
+heroImage: "/blog/manual-lymphatic-drainage-explained.svg"
 ---
 
 Manual lymphatic drainage (MLD) is the treatment people ask me about with the
