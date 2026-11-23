@@ -7,7 +7,8 @@ heroImage: "/blog/pain-is-data-not-damage.svg"
 
 One of the most useful things I do in a session doesn't involve my hands at
 all. It is a conversation, and it usually starts with a version of this:
-**pain is data, not a direct readout of damage.**
+
+**Pain is data, not a direct readout of tissue damage.**
 
 ## The strange fact about pain
 
